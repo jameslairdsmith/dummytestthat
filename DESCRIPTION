@@ -19,5 +19,5 @@ Imports:
     tibble,
     assertthat,
     testthat (>= 2.99.0.9000)
-Remotes:  
+Remotes: 
     r-lib/testthat
