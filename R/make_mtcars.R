@@ -1,11 +1,10 @@
-#' @importFrom dplyr mutate
+#' @importFrom dplyr mutate %>%
 #' @importFrom tibble as_tibble
 
 make_mt_cars <- function(){
 
-  my_result <- as_tibble(mtcars) %>%
+  my_result <- as_tibble(datasets::mtcars)
     # mutate(cyl = as.character(cyl))
-    {.}
 
   # my_result[2, 2] <- 100
 

@@ -2,6 +2,7 @@
 
 export(inf_series)
 importFrom(assertthat,assert_that)
+importFrom(dplyr,"%>%")
 importFrom(dplyr,filter)
 importFrom(dplyr,mutate)
 importFrom(dplyr,slice)
